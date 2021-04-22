@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Play - El mejor sitio de peliculas Online</title>
+    <link rel="stylesheet" href="./css/estilos.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <img src="./img/logo.svg" width="100px" />
+      <nav>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#">Comprar</a></li>
+        <li><a href="#">Contacto</a></li>
+      </nav>
+    </header>
+
+    <section>
+      <hr>
+      <img src="./img/comprar.jpg" width="600px">
+      <h1>Ahora solamente busca tu pelicula y sigue los pasos:</h1>
+      <h3>Ponte comodo y preparate.</h3>
+    </section>
+
+    <div class="buscador">
+		<h4>Encuentra tu pelicula favorita:</h4>
+      <div>
+        <input type="text" id="input" placeholder="Ingresa la pelicula"/><button class="btn" onclick="leer()">Buscar</button>
+      </div>
+    </div>
+	
+
+	<!--Mostrar peliculas-->
+    <div id="lista" class="wrapper"></div>
+
+    <section class="contact">
+      <h3 class="title">Te mantendremos informado de los nuevos estrenos</h3>	
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis
+        et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam
+        dictum sapien, id sagittis augue malesuada eu.
+      </p>
+      <hr />
+
+      <form>
+        <input type="email" placeholder="Email" />
+        <a href="#" class="btn">Suscribete ahora</a>
+      </form>
+    </section>
+
+    <footer>
+      <img src="/img/logo.svg" width="150px">
+    </footer>
+    <script src="js/buscar.js"></script>
+  </body>
+</html>
